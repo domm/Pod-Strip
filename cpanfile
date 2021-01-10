@@ -12,7 +12,6 @@ on 'test' => sub {
   requires "File::Temp" => "0";
   requires "IO::Handle" => "0";
   requires "IPC::Open3" => "0";
-  requires "Test::Kwalitee" => "0";
   requires "Test::More" => "0";
   requires "perl" => "5.006";
 };
