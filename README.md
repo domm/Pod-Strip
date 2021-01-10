@@ -1,10 +1,10 @@
 # NAME
 
-Pod::Strip
+Pod::Strip - Remove POD from Perl code
 
 # VERSION
 
-version 1.03
+version 1.100
 
 # SYNOPSIS
 
@@ -21,10 +21,6 @@ version 1.03
 
 Pod::Strip is a subclass of Pod::Simple that strips all POD from Perl Code.
 
-# NAME
-
-Pod::Strip - Remove POD from Perl code
-
 # METHODS
 
 All methods besides those listed here are inherited from Pod::Simple
@@ -39,24 +35,6 @@ Call this method with a true argument to replace POD with comments (looking like
 
 This has the effect that line numbers get reported correctly in error
 messages etc.
-
-# AUTHOR
-
-Thomas Klausner, `<domm@cpan.org>`
-
-# BUGS
-
-Please report any bugs or feature requests to
-`bug-pod-strip@rt.cpan.org`, or through the web interface at
-[http://rt.cpan.org](http://rt.cpan.org).  I will be notified, and then you'll automatically
-be notified of progress on your bug as I make changes.
-
-# COPYRIGHT & LICENSE
-
-Copyright 2004, 2005, 2006 Thomas Klausner, All Rights Reserved.
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
 
 # AUTHOR
 
